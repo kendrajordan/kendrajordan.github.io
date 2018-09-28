@@ -1,22 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link href="resources/css/styles.css" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#linkedin">Linkedin</a></li>
-          <li><a href="#github">Github</a></li>
-          <li><a href="#stackoverflow">Stack OverFlow</a></li>
-        </ul>
-      </nav>
-    </header>
+---
+layout: page
+my_number: 9
+---
+
     <main>
       <section id="about">
         <h2>About Me</h2>
@@ -57,12 +43,5 @@ of Medicaid Services to being a web developer.
           <img src="resources/images/stackoverflow.png" alt="Image of my stack overflow account."/>
         </div>
       </section>
+      <h3>My Number: {{page.my_number}}</h3>
     </main>
-    <footer>
-      <ul class='quote'>
-        <li>Kendra Jordan</li>
-        <li>2018</li>
-      </ul>
-    </footer>
-  </body>
-</html>
