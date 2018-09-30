@@ -1,0 +1,62 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+html,body{
+  font-size: 18px;
+  padding:0;
+  margin:0;
+  text-align: center;
+}
+/*jumbotron*/
+.name{
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+}
+.container.myimage.col-md-5{
+  margin-left:0;
+  margin-right: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container.col-md-7{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+
+}
+div.jumbotron.jumbotron-fluid.bg-warning{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-right: 2rem;
+}
+.jumbotron img{
+width: 22rem;
+height: auto;
+}
+div.row{
+  margin: 0;
+}
+.card-body{
+  display: flex;
+  align-items: flex-end;
+}
+.card-title{
+  font-size: 2rem;
+}
+h3{
+  margin-bottom:0;
+}
+footer.container-fluid{
+  display:flex;
+}
+
+@import"./variables.scss";
+@import "bootstrap/scss/bootstrap";

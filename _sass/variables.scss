@@ -1,0 +1,20 @@
+
+$sky:#64dfd6;
+$spring-bud:#D6D689;
+$tumbleweed:#D8A37D;
+$pale-violet-red:#D3748C;
+$burnished-brown:#9B7172;
+$eggshell:#EDEDD5;
+$gold:#E5C889;
+$rackley:	#548A99;
+
+$theme-colors:(
+  "primary":$gold,
+  "secondary":$rackley,
+  "success":$spring-bud,
+  "info":$sky,
+  "warning":$tumbleweed,
+  "danger":$pale-violet-red,
+  "light":$eggshell,
+  "dark":$burnished-brown
+);
