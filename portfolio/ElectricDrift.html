@@ -1,0 +1,31 @@
+---
+layout: page
+title: 'Electric Drift'
+permalink: /portfolio/ElectricDrift
+---
+<main class='container'>
+  <h3 class='text-center'>Electric Drift</h3>
+  <div class="jumbotron jumbotron-fluid p-0">
+    <img style='height:100%;width:100%;'class="img-fluid" src='/resources/images/chargingsessions.png' alt='bumblr'>
+  </div>
+  <div class="d-flex justify-content-center">
+    <a href="https://electricdrift.herokuapp.com/" class='btn btn-info mr-3'>VIEW WEBSITE</a>
+    <a class='btn btn-success'href='https://github.com/kendrajordan/evblog'><i class="fab fa-github fa-2x text-dark"></i>github repo</a>
+  </div>
+  <p>Bumblr was the third major project in the coding bootcamp. The requirments for this project was to create a Laravel project that ingerated a Postgresql database
+    and replicated the features of Tumblr. Tumblr is a social media platform for sharing text, photos, quotes and links. For the site to behave like the tumblr,
+  it must be able to support text entries. The site must also be a one-installation-one-website model where every logged in users contribute content to the site and the most
+   recent entry displays at the top of the page. For each entry, it must display a title, the name of the author, and what they wrote.</p>
+   <p>This project was done in the span of three days. To complete the requirements of the project, I first created my database in Postgresql. Then after making my laravel project I
+     created my blog post table migratrion. This migration contained the following columns; a user id column, a title column, a link column and a text column. The next step was creating a model
+     for my blog post table that invloved the relationship between blog posts and their authors. The eloquent relationship was that a user has many blog posts.
+   </p>
+   <p> The next step required in replicating the features of tumblr was establishing the blog post controller and its routes. The first route that was created was the index route.
+     An index method was also created to retrieve all blog posts created in order of when it was created then placed on the index page. After creating the index route and method,
+      I proceed to create routes and methods to store the user's blog post, edit the blog post's content, update an existing blog post and to delete a blog post. To create and edit a blog post, two forms were made
+     that requested the user to input a title, a link and a message.</p>
+     <h3>Conclusion</h3>
+     <p> This project helped me develop my research skills since this was the first time using both Laravel and Postgresql together. I mainly used the Laravel documentation and the Laracast videos to complete this project.
+     If I were to continue working on this project, I would and two features. The first feature I would add would be to add a photos to a blog post entries and the second feature I would add to add would be to add  videos to blog post entries. </p>
+
+</main>

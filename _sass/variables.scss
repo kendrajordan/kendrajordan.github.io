@@ -1,19 +1,19 @@
-$sky:#64dfd6;
-$spring-bud:#D6D689;
-$tumbleweed:#D8A37D;
-$pale-violet-red:#D3748C;
-$burnished-brown:#9B7172;
-$eggshell:#EDEDD5;
-$gold:#E5C889;
-$rackley:	#548A99;
+$dogerblue:#2191FB;
+$gray-blue:#8D99AE;
+$white:#FFFAFF;
+$heidelberg-red:#A4031F;
+$licorice:#0C1713;
+$myrtlegreen:#296B5F;
+$mindaro:#DBFE87;
+$dimgray:	#6B4E71;
 
 $theme-colors:(
-  "primary":$gold,
-  "secondary":$rackley,
-  "success":$spring-bud,
-  "info":$sky,
-  "warning":$tumbleweed,
-  "danger":$pale-violet-red,
-  "light":$eggshell,
-  "dark":$burnished-brown
+  "primary":$heidelberg-red,
+  "secondary":$gray-blue,
+  "success":$myrtlegreen,
+  "info":$dogerblue,
+  "warning":$mindaro,
+  "danger":$dimgray,
+  "light":$white,
+  "dark":$licorice
 )

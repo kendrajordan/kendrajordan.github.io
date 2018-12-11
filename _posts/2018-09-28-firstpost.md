@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: 'page'
 ---
 Bacon ipsum dolor amet tri-tip turkey ham hock shoulder. T-bone alcatra pork belly cupim, frankfurter corned beef sausage pig shoulder turducken hamburger. Frankfurter brisket beef ribs short loin, pork kevin tongue meatloaf doner. Jowl fatback short loin chuck cow, andouille shoulder frankfurter venison. Meatball tenderloin tri-tip turducken fatback prosciutto tongue filet mignon shoulder burgdoggen chuck short ribs hamburger sirloin. Turducken hamburger buffalo, ham jerky chicken picanha capicola pancetta cupim.
 
