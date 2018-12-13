@@ -5,11 +5,37 @@ permalink: /portfolio/galaxygala
 ---
 <main class='container'>
   <h3 class='text-center'>Galaxy Gala</h3>
-  <div class="jumbotron jumbotron-fluid p-0">
-    <img style='height:100%;width:100%;'class="img-fluid" src='/resources/images/GalaxyGala.png' alt='bumblr'>
+  <div style='max-height:400px;width:100%; overflow:hidden;'class="jumbotron jumbotron-fluid p-0">
+    <img style='width: 100%;'class="img-fluid" src='/resources/images/GalaxyGala.png' alt='bumblr'>
   </div>
   <div class="d-flex justify-content-center">
-    <a href="https://galaxy-gala.herokuapp.com/" class='btn btn-info mr-3'>VIEW WEBSITE</a>
-    <a class='btn btn-success'href='https://github.com/kendrajordan/galaxy_gala'><i class="fab fa-github fa-2x text-dark"></i>github repo</a>
+    <a href="https://galaxy-gala.herokuapp.com/"target="_blank" class='btn btn-info mr-3'>VIEW WEBSITE</a>
+    <a class='btn btn-success'href='https://github.com/kendrajordan/galaxy_gala' target="_blank"><i class="fab fa-github fa-2x text-dark"></i>github repo</a>
   </div>
+    <p>
+      Galaxy Gala was the fourth major project done in Awesome Inc's coding bootcamp. The requirements for this project was to create a community-
+      edited virtual art gallery by the end of the day. The exhibits in the gallery were to be images found on the internet. All registered users can add exhibits to the
+      gallery's collection, edit exhibits that have already been added, or remove exhibits. Each exhibit should include the following information:
+      <ul>
+        <li>id</li>
+        <li>name of the exhibit</li>
+        <li>year the exhibit was created</li>
+        <li>artist's name</li>
+        <li>URL to image</li>
+        <li>description of the the exhibit</li>
+        <li>timestamps</li>
+      </ul>
+    </p>
+    <p>I chose the gallery theme of 'Images of Space' because I have always found those types of images fascinating and that NASA usually has the best images to
+    choose from. Before I did started coding, I made sure that my database was created in Postgresql had that incorporated into my Laravel project and that everything
+  was setup and ready for deploy by the end of the day to Github and Heroku. After that I worked on my table migrations and made sure to include all the fields required for the
+project. With the exhibit table setup, I made sure that the relationship between users and exhibits were established. The relationship was that a user can own many exhibits and
+that an exhibit belongs to a user.With the relationship established I was able to start seeding my project with exhibits to see if everything I setup was working properly.</p>
+<p> Using a resource controller made it easier to route my project. The steps taken in creating an exhibit and storing it on my site through a controller was similar to another project I
+   created called <a href="/portfolio/Bumblr">Bumblr</a>, so I used that as reference throughout this project. When comparing the two projects, I felt like I had more of an understanding
+ of the consepts of working in Laravel and I didn't experience as many hiccups as I did with Bumblr due to me having more experience with the technology.</p>
+<h3 class='text-center'>Conclusion</h3>
+<p> I really enjoyed working on this project. Being able to see a project through from start to finish in one day really shows how much I have grown as a developer in the coding bootcamp.
+Truly, hope to do simpliar projects in the future that require the use of databases to create sites.</p>
+
   </main>

@@ -5,11 +5,20 @@ permalink: /portfolio/giphy
 ---
 <main class='container'>
   <h3 class='text-center'>Giphy Search</h3>
-  <div class="jumbotron jumbotron-fluid p-0">
-    <img style='height:100%;width:100%;'class="img-fluid" src='/resources/images/giphy.png' alt='bumblr'>
+  <div style='max-height:400px;width:100%; overflow:hidden;'class="jumbotron jumbotron-fluid p-0">
+    <img style='width: 100%;'class="img-fluid" src='/resources/images/giphy.png' alt='bumblr'>
   </div>
   <div class="d-flex justify-content-center">
-    <a href="https://kendrajordan.github.io/Vue-SearchGrid/" class='btn btn-info mr-3'>VIEW WEBSITE</a>
-    <a class='btn btn-success'href='https://github.com/kendrajordan/Vue-SearchGrid'><i class="fab fa-github fa-2x text-dark"></i>github repo</a>
+    <a href="https://kendrajordan.github.io/Vue-SearchGrid/" target="_blank"class='btn btn-info mr-3'>VIEW WEBSITE</a>
+    <a class='btn btn-success'href='https://github.com/kendrajordan/Vue-SearchGrid'target="_blank"><i class="fab fa-github fa-2x text-dark"></i>github repo</a>
   </div>
+  <p>Giphy Search was a project that incorporated handling Ajax requests in a Vue.js application along with the use of localstorage. The class at Awesome Inc's coding bootcamp was
+    told to use the giphy.com's documentation to figure out how to manipulate Ajax requests to show different results.The two pieces of data you could manipulate through giphy.com
+     was the query data and the limit data. So I created a function that would replace the query and limit data in the url with an input that was v-modeled to
+     query and limit data items in the data object in vue.js.
+  </p>
+  <p>To have the ajax request stay on the web browser, I implemented the use of localstorage on the current query and limit data. This is so if I clicked on any of the giphy images and
+  clicked the back button, my search results will still be there.</p>
+  <h3 class='text-center'>Conclusion</h3>
+  <p> This project has been very useful in helping me understand how to handle ajax requests in vue.js. I how to use it as a reference for future projects.</p>
   </main>

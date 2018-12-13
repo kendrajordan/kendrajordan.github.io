@@ -5,11 +5,24 @@ permalink: /portfolio/clock
 ---
 <main class='container'>
   <h3 class='text-center'>Vue Clock</h3>
-  <div class="jumbotron jumbotron-fluid p-0">
-    <img style='height:100%;width:100%;'class="img-fluid" src='/resources/images/clock.png' alt='bumblr'>
+  <div style='max-height:400px;width:100%; overflow:hidden;'class="jumbotron jumbotron-fluid p-0">
+    <img style='width:100%;'class="img-fluid" src='/resources/images/clock.png' alt='bumblr'>
   </div>
   <div class="d-flex justify-content-center">
-    <a href="https://kendrajordan.github.io/Vue-Clock/" class='btn btn-info mr-3'>VIEW WEBSITE</a>
-    <a class='btn btn-success'href='https://github.com/kendrajordan/Vue-Clock'><i class="fab fa-github fa-2x text-dark"></i>github repo</a>
+    <a href="https://kendrajordan.github.io/Vue-Clock/"target="_blank" class='btn btn-info mr-3'>VIEW WEBSITE</a>
+    <a class='btn btn-success'href='https://github.com/kendrajordan/Vue-Clock'target="_blank"><i class="fab fa-github fa-2x text-dark"></i>github repo</a>
   </div>
+  <p>The Vue clock was a project done in class at Awesome Inc's coding bootcamp. Initally, the clock was worked on in class together. Then the teacher
+  requested that we create an alarm and a countdown clock on our own.</p>
+  <p>Working on the setting the alarm was relatively easy. I first added hours, minutes and seconds as data items in vue.js and v-modeled them to selectors to set a time.
+  Then I converted that converted the inputted set time into milliseconds. Afterwards, I converted the current time into milliseconds and subtracted the difference between the set time and the
+current time. The difference between the set time and the current time is set to a variable called timerremainder. I then had to write an if statement saying if the set time is greater than the current time in milliseconds then set a time out function that will go off when the timeremainder in milliseconds has
+lapsed else have the app say that the time has passed.</p>
+<p>As for the countdown clock, that took more time to figure out. I was unsure where to start with the countdown timer so I researched online to see if there were any answers in how to create a countdown clock. I found a
+solution in W3 schools on how to create a countdown clock but it was in vanilla javascript. I was able to convert most of the vanilla javascript into vue.js syntax but I was having trouble calling my countdown function
+in the setinterval method. I kept getting an error saying my countdown function wasn't a function. I looking all over stackoverflow and I found a similiar issue. It turns out that I needed to use a callback function to
+make my code work.</p>
+<h3 class='text-center'>Conclusion</h3>
+<p>This project was great in practicing code logic. This project was also good for reviewing time methods. I will comeback to this project if I need to create a countdown clock or an alarm.</p>
+
   </main>

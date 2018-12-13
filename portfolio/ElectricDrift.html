@@ -5,27 +5,45 @@ permalink: /portfolio/ElectricDrift
 ---
 <main class='container'>
   <h3 class='text-center'>Electric Drift</h3>
-  <div class="jumbotron jumbotron-fluid p-0">
-    <img style='height:100%;width:100%;'class="img-fluid" src='/resources/images/chargingsessions.png' alt='bumblr'>
+  <div style='max-height:400px;width:100%; overflow:hidden;'class="jumbotron jumbotron-fluid p-0">
+    <img style='width: 100%;'class="img-fluid" src='/resources/images/chargingsessions.png' alt='bumblr'>
   </div>
   <div class="d-flex justify-content-center">
-    <a href="https://electricdrift.herokuapp.com/" class='btn btn-info mr-3'>VIEW WEBSITE</a>
-    <a class='btn btn-success'href='https://github.com/kendrajordan/evblog'><i class="fab fa-github fa-2x text-dark"></i>github repo</a>
+    <a href="https://electricdrift.herokuapp.com/"target="_blank" class='btn btn-info mr-3'>VIEW WEBSITE</a>
+    <a class='btn btn-success'href='https://github.com/kendrajordan/evblog'target="_blank"><i class="fab fa-github fa-2x text-dark"></i>github repo</a>
   </div>
-  <p>Bumblr was the third major project in the coding bootcamp. The requirments for this project was to create a Laravel project that ingerated a Postgresql database
-    and replicated the features of Tumblr. Tumblr is a social media platform for sharing text, photos, quotes and links. For the site to behave like the tumblr,
-  it must be able to support text entries. The site must also be a one-installation-one-website model where every logged in users contribute content to the site and the most
-   recent entry displays at the top of the page. For each entry, it must display a title, the name of the author, and what they wrote.</p>
-   <p>This project was done in the span of three days. To complete the requirements of the project, I first created my database in Postgresql. Then after making my laravel project I
-     created my blog post table migratrion. This migration contained the following columns; a user id column, a title column, a link column and a text column. The next step was creating a model
-     for my blog post table that invloved the relationship between blog posts and their authors. The eloquent relationship was that a user has many blog posts.
+  <p>Electric Drift was my final project at Awesome Inc's coding bootcamp. This project was meant to simulate a two week coding sprint.
+     The requirements for this project was to incorporate the following technologies to create a site of your choosing:
+<ul>
+  <li>Bootstrap</li>
+  <li>Sass</li>
+  <li>Laravel</li>
+  <li>Postgresql</li>
+  <li>Vuejs</li>
+  <li>PHP</li>
+</ul>
+  </p>
+   <p> I was inspired to create an electric vehicle blog site called 'Electric Drift'. This was due to me owning an electric vehicle and being passionate
+      about telling others the benefits of owning an electric vehicle. During the two week sprint, I mainly focused one app for my site called
+      'Charge Log'. The 'Charge Log' app is a fuel log for electric vehicles. The reason why I wanted to include it was to assist current
+      electric vehicle owners budget their fuel costs while they were away from home.
    </p>
-   <p> The next step required in replicating the features of tumblr was establishing the blog post controller and its routes. The first route that was created was the index route.
-     An index method was also created to retrieve all blog posts created in order of when it was created then placed on the index page. After creating the index route and method,
-      I proceed to create routes and methods to store the user's blog post, edit the blog post's content, update an existing blog post and to delete a blog post. To create and edit a blog post, two forms were made
-     that requested the user to input a title, a link and a message.</p>
+   <p> My charge log is able to report the cost of charging at a variety of charging stations with any electric vehicle through a charging session. To create a charging session, you
+      must first select the date and the times of when you charging your vehicle.Then, select the charging station and electric vehicle involved with the charging session.
+      If there are no charging stations or vehicles listed on the app, then the user can click on the 'Add a Car' or 'Add a Charging Station' buttons on the 'Charging
+       Sessions' page or go to the 'Manage Cars/Manage Charging Stations' pages to add a car or charging station. After inputting all the information necessary for creating
+      a charging session, my app will calculate the cost of charging through a Vuejs component and populate the charging session
+      data into a table underneath the 'Create a Charging Session' form.</p>
+    <p>You can also view the charging session information in different ways. If you go to the 'Manage Charging Stations' page you can click on the name of the charging station
+    and it will show you table of all the charging sessions involving that particular charging station. As similar feature was done for each vehicle stored on the app.The user
+     can also edit or delete vehicles and charging stations without impacting the previous charging session entries. This was done by adding more fields in my pivot table to
+      include the data from the vehicle and the charging station when a charging session was created. Also if a user wants to delete vehicle or charging station, I will still
+       be able to retrieve the data via a soft delete with Laravel.</p>
+       <p>When designing the app, I used Sass to help change the Bootstrap colors so that I can use cool color scheme for the app. With the Boostrap, I made sure that the information
+       expressed on larger screens would look decent on smaller screens aswell.</p>
      <h3>Conclusion</h3>
-     <p> This project helped me develop my research skills since this was the first time using both Laravel and Postgresql together. I mainly used the Laravel documentation and the Laracast videos to complete this project.
-     If I were to continue working on this project, I would and two features. The first feature I would add would be to add a photos to a blog post entries and the second feature I would add to add would be to add  videos to blog post entries. </p>
+     <p> I truly enjoyed work on this project and being able to make a usable app for EV owners. If I had more time on this project, I would have added another app that would
+     compare the fueling costs of an electric vehicle to a gasoline vehicle. I would also add more content for non-electric vehicle owners to provide more information about the
+   benefits of electric vehicles.</p>
 
 </main>
